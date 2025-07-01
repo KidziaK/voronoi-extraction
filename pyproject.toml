@@ -1,12 +1,10 @@
 [project]
 name = "voronoi-extraction"
 version = "0.1.0"
-description = "Add your description here"
+description = "Simple wrapper for NVDNet. Used to create voronoi cells of an unoriented point cloud."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "open3d>=0.19.0",
-    "torch>=2.7.1",
     "tqdm>=4.67.1",
-    "trimesh>=4.6.13",
 ]
